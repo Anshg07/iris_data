@@ -13,7 +13,7 @@ col1,col2 = st.columns(2)
 with col1:
     st.text('Sepal Characteristics')
     sepal_l=st.slider('Sepal length (cm)',1.0,8.0,0.5)
-    sepal_w=st.slider('Sepal width (cm)',2.0,4.4,0.5)
+    sepal_w=st.slider('Sepal width (cm)',2.0,4.4,2.2)
 with col2:
     st.text('Petal Characteristics')
     petal_l=st.slider('Petal length (cm)',1.0,8.0,0.5)
